@@ -1,0 +1,2267 @@
+{
+  "allowRemoteResourceManagement": true,
+  "policyEnforcementMode": "ENFORCING",
+  "resources": [
+    {
+      "name": "L1 Resource",
+      "ownerManagedAccess": false,
+      "displayName": "L1 Resource",
+      "attributes": {},
+      "uris": [],
+      "scopes": [
+        {
+          "name": "/auth"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "notification",
+      "ownerManagedAccess": false,
+      "displayName": "notification",
+      "attributes": {},
+      "uris": ["notification/"],
+      "scopes": [
+        {
+          "name": "patch-notification/seen"
+        },
+        {
+          "name": "get-notification"
+        },
+        {
+          "name": "post-notification"
+        },
+        {
+          "name": "get-notification/stream"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "ping",
+      "ownerManagedAccess": false,
+      "displayName": "ping",
+      "attributes": {},
+      "uris": ["/ping"],
+      "scopes": [
+        {
+          "name": "get-ping"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "waves",
+      "ownerManagedAccess": false,
+      "displayName": "waves",
+      "attributes": {},
+      "uris": ["/waves"],
+      "scopes": [
+        {
+          "name": "get-waves/project"
+        },
+        {
+          "name": "get-waves"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "pipeline",
+      "ownerManagedAccess": false,
+      "displayName": "Pipeline L0",
+      "attributes": {},
+      "uris": ["/pipeline"],
+      "scopes": [
+        {
+          "name": "get-pipeline/config"
+        },
+        {
+          "name": "/auth"
+        },
+        {
+          "name": "get-pipeline/processing-class"
+        },
+        {
+          "name": "get-pipeline/project"
+        },
+        {
+          "name": "get-pipeline/doc-type"
+        },
+        {
+          "name": "get-pipeline/list"
+        },
+        {
+          "name": "get-pipeline/case/files"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "projects",
+      "ownerManagedAccess": false,
+      "displayName": "projects",
+      "attributes": {},
+      "uris": ["/projects"],
+      "scopes": [
+        {
+          "name": "get-projects/list"
+        },
+        {
+          "name": "put-projects"
+        },
+        {
+          "name": "delete-projects"
+        },
+        {
+          "name": "get-projects/overall_project_records"
+        },
+        {
+          "name": "get-projects/filter_overview"
+        },
+        {
+          "name": "get-projects"
+        },
+        {
+          "name": "put-projects/project_status"
+        },
+        {
+          "name": "post-projects/project"
+        },
+        {
+          "name": "get-projects/overview"
+        },
+        {
+          "name": "get-projects/user_roles"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "phases",
+      "ownerManagedAccess": false,
+      "displayName": "phases",
+      "attributes": {},
+      "uris": ["/phases"],
+      "scopes": [
+        {
+          "name": "get-phases/download_chase"
+        },
+        {
+          "name": "delete-phases"
+        },
+        {
+          "name": "get-phases/list_object"
+        },
+        {
+          "name": "put-phases"
+        },
+        {
+          "name": "get-phases/user_roles"
+        },
+        {
+          "name": "get-phases/presigned-url"
+        },
+        {
+          "name": "post-phases/phase"
+        },
+        {
+          "name": "get-phases"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "tickets-execution",
+      "ownerManagedAccess": false,
+      "displayName": "tickets-execution",
+      "attributes": {},
+      "uris": ["/tickets-execution"],
+      "scopes": [
+        {
+          "name": "get-tickets-execution/outcomes"
+        },
+        {
+          "name": "post-tickets-execution/tickets"
+        },
+        {
+          "name": "post-tickets-execution/start_call"
+        },
+        {
+          "name": "get-tickets-execution/tickets-metrics"
+        },
+        {
+          "name": "get-tickets-execution/external_details"
+        },
+        {
+          "name": "get-tickets-execution/research_custom_message"
+        },
+        {
+          "name": "post-tickets-execution/research_details"
+        },
+        {
+          "name": "patch-tickets-execution/call_update"
+        },
+        {
+          "name": "put-tickets-execution/ticket_assignee"
+        },
+        {
+          "name": "get-tickets-execution/call_notes"
+        },
+        {
+          "name": "get-tickets-execution/ticket_assignee"
+        },
+        {
+          "name": "post-tickets-execution/send_fax"
+        },
+        {
+          "name": "post-tickets-execution/call_details"
+        },
+        {
+          "name": "post-tickets-execution/call_end"
+        },
+        {
+          "name": "get-tickets-execution"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "reports",
+      "ownerManagedAccess": false,
+      "displayName": "reports",
+      "attributes": {},
+      "uris": ["/reports"],
+      "scopes": [
+        {
+          "name": "get-reports/invoice_comments"
+        },
+        {
+          "name": "post-reports/workflow_status"
+        },
+        {
+          "name": "get-reports/excess_fee_metrics"
+        },
+        {
+          "name": "post-reports/export_workflow_status_summary"
+        },
+        {
+          "name": "get-reports/reason_metrics"
+        },
+        {
+          "name": "post-reports/export_detailed_billing"
+        },
+        {
+          "name": "get-reports/facility_insights"
+        },
+        {
+          "name": "get-reports/detailed_billing_report"
+        },
+        {
+          "name": "get-reports/appointment_type"
+        },
+        {
+          "name": "get-reports/hydra_charts"
+        },
+        {
+          "name": "get-reports/invoice"
+        },
+        {
+          "name": "get-reports/call_performance_metrics"
+        },
+        {
+          "name": "put-reports/discrepancy_invoice"
+        },
+        {
+          "name": "get-reports/invoice_attachments"
+        },
+        {
+          "name": "get-reports/chart_status_detailed_summary"
+        },
+        {
+          "name": "get-reports/agents_chart"
+        },
+        {
+          "name": "get-reports/agent_insights"
+        },
+        {
+          "name": "get-reports/invoice_attributes"
+        },
+        {
+          "name": "get-reports/chart_volume_metrics"
+        },
+        {
+          "name": "get-reports/clients"
+        },
+        {
+          "name": "get-reports/chart_status_summary"
+        },
+        {
+          "name": "get-reports/client_action_data"
+        },
+        {
+          "name": "get-reports/volume_metrics"
+        },
+        {
+          "name": "post-reports/invoice_comment"
+        },
+        {
+          "name": "get-reports/projects"
+        },
+        {
+          "name": "get-reports/export_excess_fee_summary"
+        },
+        {
+          "name": "post-reports/export_client_action_data"
+        },
+        {
+          "name": "get-reports/billing_metrics"
+        },
+        {
+          "name": "get-reports/download_client_action_report"
+        },
+        {
+          "name": "get-reports/tickets_chart"
+        },
+        {
+          "name": "post-reports/discrepancy_invoices"
+        },
+        {
+          "name": "post-reports/appointment_type_status"
+        },
+        {
+          "name": "get-reports/workflow_status"
+        },
+        {
+          "name": "get-reports/linked_chase"
+        },
+        {
+          "name": "post-reports/workflow_status_summary"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "clients",
+      "ownerManagedAccess": false,
+      "displayName": "clients",
+      "attributes": {},
+      "uris": ["/clients"],
+      "scopes": [
+        {
+          "name": "get-clients"
+        },
+        {
+          "name": "post-clients/copy-attachment"
+        },
+        {
+          "name": "put-clients"
+        },
+        {
+          "name": "post-clients/client"
+        },
+        {
+          "name": "get-clients/list"
+        },
+        {
+          "name": "delete-clients"
+        },
+        {
+          "name": "put-clients/remove_attachment"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "chases",
+      "ownerManagedAccess": false,
+      "displayName": "chases",
+      "attributes": {},
+      "uris": ["/chases"],
+      "scopes": [
+        {
+          "name": "put-chases/processed"
+        },
+        {
+          "name": "put-chases/reverse_hierarchy"
+        },
+        {
+          "name": "post-chases/processed"
+        },
+        {
+          "name": "get-chases/download"
+        },
+        {
+          "name": "post-chases/download"
+        },
+        {
+          "name": "get-chases/filters"
+        },
+        {
+          "name": "post-chases"
+        },
+        {
+          "name": "put-chases/link_invoice"
+        },
+        {
+          "name": "get-chases/unique_providers"
+        },
+        {
+          "name": "get-chases"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "tickets",
+      "ownerManagedAccess": false,
+      "displayName": "tickets",
+      "attributes": {},
+      "uris": ["/tickets"],
+      "scopes": [
+        {
+          "name": "get-tickets/assign"
+        },
+        {
+          "name": "post-tickets"
+        },
+        {
+          "name": "put-tickets"
+        },
+        {
+          "name": "post-tickets/bulk_tickets"
+        },
+        {
+          "name": "put-tickets/ticket_assign"
+        },
+        {
+          "name": "delete-tickets"
+        },
+        {
+          "name": "get-tickets"
+        },
+        {
+          "name": "get-tickets/ticket_stage"
+        },
+        {
+          "name": "post-tickets/split"
+        },
+        {
+          "name": "get-tickets/departments"
+        },
+        {
+          "name": "get-tickets/executives"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "tasks",
+      "ownerManagedAccess": false,
+      "displayName": "tasks",
+      "attributes": {},
+      "uris": ["/tasks"],
+      "scopes": [
+        {
+          "name": "get-tasks/download_record_list"
+        },
+        {
+          "name": "post-tasks"
+        },
+        {
+          "name": "get-tasks/assign"
+        },
+        {
+          "name": "put-tasks"
+        },
+        {
+          "name": "get-tasks/list"
+        },
+        {
+          "name": "get-tasks/record_list"
+        },
+        {
+          "name": "post-tasks/generate_tasks"
+        },
+        {
+          "name": "get-tasks/facility_list"
+        },
+        {
+          "name": "post-tasks/task_details"
+        },
+        {
+          "name": "put-tasks/assign"
+        },
+        {
+          "name": "post-tasks/split_task"
+        },
+        {
+          "name": "delete-tasks"
+        },
+        {
+          "name": "get-tasks"
+        },
+        {
+          "name": "post-tasks/bulk_fax"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "files",
+      "ownerManagedAccess": false,
+      "displayName": "Files",
+      "attributes": {},
+      "uris": ["/files"],
+      "scopes": [
+        {
+          "name": "post-files/reupload"
+        },
+        {
+          "name": "post-files/file"
+        },
+        {
+          "name": "get-files/list"
+        },
+        {
+          "name": "get-files"
+        },
+        {
+          "name": "get-files/download_invalid_data"
+        },
+        {
+          "name": "get-files/validation_results"
+        },
+        {
+          "name": "put-files"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "vendors",
+      "ownerManagedAccess": false,
+      "displayName": "vendors",
+      "attributes": {},
+      "uris": ["/vendors"],
+      "scopes": [
+        {
+          "name": "put-vendors"
+        },
+        {
+          "name": "post-vendors"
+        },
+        {
+          "name": "get-vendors/download_vendor_summary"
+        },
+        {
+          "name": "get-vendors/list"
+        },
+        {
+          "name": "get-vendors/vendor_summary"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "activity-logs",
+      "ownerManagedAccess": false,
+      "displayName": "activity-logs",
+      "attributes": {},
+      "uris": ["/activity-logs"],
+      "scopes": [
+        {
+          "name": "get-activity-logs/tasks"
+        },
+        {
+          "name": "get-activity-logs"
+        },
+        {
+          "name": "get-activity-logs/tickets"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "auth",
+      "ownerManagedAccess": false,
+      "displayName": "auth",
+      "attributes": {},
+      "uris": ["/auth"],
+      "scopes": [
+        {
+          "name": "/auth"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "invoices",
+      "ownerManagedAccess": false,
+      "displayName": "invoices",
+      "attributes": {},
+      "uris": ["/invoices"],
+      "scopes": [
+        {
+          "name": "get-invoices/attribute-details"
+        },
+        {
+          "name": "put-invoices/assign"
+        },
+        {
+          "name": "post-invoices/comment"
+        },
+        {
+          "name": "post-invoices/approval-details"
+        },
+        {
+          "name": "post-invoices/invoice-details"
+        },
+        {
+          "name": "get-invoices"
+        },
+        {
+          "name": "post-invoices/add-attachments"
+        },
+        {
+          "name": "delete-invoices/attachment"
+        },
+        {
+          "name": "get-invoices/chase_list"
+        },
+        {
+          "name": "get-invoices/approval-details"
+        },
+        {
+          "name": "get-invoices/comments"
+        },
+        {
+          "name": "post-invoices/add-files"
+        },
+        {
+          "name": "get-invoices/attachments"
+        },
+        {
+          "name": "post-invoices/download"
+        },
+        {
+          "name": "put-invoices/approval-details"
+        },
+        {
+          "name": "put-invoices"
+        },
+        {
+          "name": "get-invoices/assign"
+        }
+      ],
+      "icon_uri": ""
+    },
+    {
+      "name": "l0",
+      "ownerManagedAccess": false,
+      "displayName": "l0 Resource",
+      "attributes": {},
+      "uris": ["/l0"],
+      "scopes": [
+        {
+          "name": "get-l0/status"
+        },
+        {
+          "name": "put-l0/hcc"
+        },
+        {
+          "name": "get-l0/chart-verify"
+        },
+        {
+          "name": "get-l0/search/chart"
+        },
+        {
+          "name": "put-l0/hold"
+        },
+        {
+          "name": "get-l0/dashboard"
+        },
+        {
+          "name": "get-l0/chart"
+        },
+        {
+          "name": "get-l0/hold-list"
+        },
+        {
+          "name": "put-l0/chart"
+        }
+      ],
+      "icon_uri": ""
+    }
+  ],
+  "policies": [
+    {
+      "name": "Admin Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Admin\",\"required\":true}]"
+      }
+    },
+    {
+      "name": "TeamLead Caller Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Team Lead Caller\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "TeamLead Fax Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Team Lead Fax\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "TeamLead Research Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Team Lead Research\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "L0 Policy",
+      "description": "L0 Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/L0\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Client Policy",
+      "description": "Client Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "false",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Client\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Senior Caller Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Senior Caller Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Senior Fax Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Senior Fax Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "L1 Policy",
+      "description": "L1 Policy",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "false",
+        "roles": "[{\"id\":\"AnnovaHealthCare/L1\",\"required\":true}]"
+      }
+    },
+    {
+      "name": "Senior Research Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Senior Research Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Junior Caller Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Junior Caller Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Junior Fax Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Junior Fax Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Junior Research Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Junior Research Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Junior Invoice Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Junior Invoice Executive\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Senior Invoice Executive Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Senior Invoice Approver\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "TeamLead Invoice Policy",
+      "description": "",
+      "type": "role",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "fetchRoles": "true",
+        "roles": "[{\"id\":\"AnnovaHealthCare/Team Lead Invoice\",\"required\":false}]"
+      }
+    },
+    {
+      "name": "Calling , Fax Waves Permission (SE, TL)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"waves\"]",
+        "scopes": "[\"get-waves/project\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"TeamLead Caller Policy\",\"TeamLead Invoice Policy\",\"Senior Fax Executive Policy\",\"Senior Invoice Executive Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Files Permission (Admin, Research SE, TL Research)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"files\"]",
+        "scopes": "[\"get-files/download_invalid_data\",\"post-files/reupload\",\"post-files/file\",\"get-files\",\"get-files/validation_results\",\"put-files\",\"get-files/list\"]",
+        "applyPolicies": "[\"Admin Policy\",\"Senior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Chases Permission (Admin ,  Research (TL,SE,JE))",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"chases\"]",
+        "scopes": "[\"put-chases/reverse_hierarchy\",\"put-chases/link_invoice\",\"put-chases/processed\",\"get-chases/download\",\"post-chases\",\"post-chases/download\",\"post-chases/processed\",\"get-chases\",\"get-chases/filters\",\"get-chases/unique_providers\"]",
+        "applyPolicies": "[\"Admin Policy\",\"Senior Research Executive Policy\",\"Junior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Facility Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tasks\"]",
+        "scopes": "[\"put-tasks\",\"post-tasks/task_details\",\"post-tasks/generate_tasks\",\"delete-tasks\",\"get-tasks/download_record_list\",\"post-tasks\",\"get-tasks/list\",\"post-tasks/bulk_fax\",\"get-tasks\",\"put-tasks/assign\",\"post-tasks/split_task\",\"get-tasks/record_list\",\"get-tasks/assign\"]",
+        "applyPolicies": "[\"Admin Policy\",\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Project Permission (Admin, Research (SE, JE, TL))",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"projects\"]",
+        "scopes": "[\"get-projects/user_roles\",\"get-projects/overall_project_records\",\"put-projects/project_status\",\"get-projects\",\"get-projects/filter_overview\",\"post-projects/project\",\"put-projects\",\"delete-projects\",\"get-projects/overview\"]",
+        "applyPolicies": "[\"Admin Policy\",\"Senior Research Executive Policy\",\"Junior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Project Permission (TL)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"projects\"]",
+        "scopes": "[\"get-projects/user_roles\",\"get-projects/overall_project_records\",\"put-projects/project_status\",\"get-projects\",\"get-projects/list\",\"get-projects/filter_overview\",\"get-projects/overview\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"TeamLead Caller Policy\"]"
+      }
+    },
+    {
+      "name": "Clients Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"clients\"]",
+        "scopes": "[\"post-clients/copy-attachment\",\"get-clients/list\",\"delete-clients\",\"post-clients/client\",\"get-clients\",\"put-clients/remove_attachment\",\"put-clients\"]",
+        "applyPolicies": "[\"Admin Policy\"]"
+      }
+    },
+    {
+      "name": "Phases Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"phases\"]",
+        "scopes": "[\"get-phases/presigned-url\",\"post-phases/phase\",\"get-phases/download_chase\",\"get-phases/list_object\",\"get-phases\",\"get-phases/user_roles\",\"delete-phases\",\"put-phases\"]",
+        "applyPolicies": "[\"Admin Policy\"]"
+      }
+    },
+    {
+      "name": "Calling , Fax, Invoice Phases Permission (TL) & Invoice (SE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"phases\"]",
+        "scopes": "[\"get-phases/download_chase\",\"get-phases/list_object\",\"get-phases\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"TeamLead Caller Policy\",\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Vendor Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"vendors\"]",
+        "scopes": "[\"put-vendors\",\"post-vendors\",\"get-vendors/download_vendor_summary\",\"get-vendors/list\",\"get-vendors/vendor_summary\"]",
+        "applyPolicies": "[\"Admin Policy\",\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\",\"Junior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Notifications Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"notification\"]",
+        "scopes": "[\"patch-notification/seen\",\"get-notification\",\"post-notification\",\"get-notification/stream\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"Client Policy\",\"Junior Invoice Executive Policy\",\"Admin Policy\",\"Senior Research Executive Policy\",\"Junior Caller Executive Policy\",\"TeamLead Caller Policy\",\"TeamLead Invoice Policy\",\"Senior Fax Executive Policy\",\"Junior Research Executive Policy\",\"Senior Invoice Executive Policy\",\"TeamLead Research Policy\",\"Senior Caller Executive Policy\",\"Junior Fax Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Task Permission (Admin, Invoice(TL,SE),Research (TL, SE, JE))",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets\"]",
+        "scopes": "[\"put-tickets/ticket_assign\",\"put-tickets\",\"delete-tickets\",\"get-tickets/ticket_stage\",\"post-tickets/split\",\"get-tickets/departments\",\"get-tickets/executives\",\"post-tickets/bulk_tickets\",\"get-tickets/assign\",\"post-tickets\",\"get-tickets\"]",
+        "applyPolicies": "[\"Admin Policy\",\"Senior Research Executive Policy\",\"TeamLead Invoice Policy\",\"Junior Research Executive Policy\",\"Senior Invoice Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Waves Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"waves\"]",
+        "scopes": "[\"get-waves\",\"get-waves/project\"]",
+        "applyPolicies": "[\"Admin Policy\",\"Senior Research Executive Policy\",\"Junior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": " Research Executive Facility Permission (JE, SE, TL)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tasks\"]",
+        "scopes": "[\"put-tasks\",\"post-tasks/task_details\",\"post-tasks/generate_tasks\",\"get-tasks\",\"get-tasks/download_record_list\",\"post-tasks\",\"get-tasks/list\",\"put-tasks/assign\",\"post-tasks/split_task\",\"get-tasks/record_list\",\"get-tasks/assign\"]",
+        "applyPolicies": "[\"Senior Research Executive Policy\",\"Junior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Research Executive Phases Permission (TL, SE, JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"phases\"]",
+        "scopes": "[\"post-phases/phase\",\"get-phases/download_chase\",\"get-phases/list_object\",\"get-phases\",\"get-phases/user_roles\",\"delete-phases\",\"put-phases\"]",
+        "applyPolicies": "[\"Senior Research Executive Policy\",\"Junior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Invoices Client Permission ",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"clients\"]",
+        "scopes": "[\"post-clients/copy-attachment\"]",
+        "applyPolicies": "[\"TeamLead Invoice Policy\"]"
+      }
+    },
+    {
+      "name": "Junior Executive Invoice Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"invoices\"]",
+        "scopes": "[\"post-invoices/comment\",\"put-invoices\",\"get-invoices/comments\",\"get-invoices/attribute-details\",\"post-invoices/invoice-details\",\"get-invoices\",\"get-invoices/chase_list\"]",
+        "applyPolicies": "[\"Junior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Invoice Project Permission (SE, TL)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"projects\"]",
+        "scopes": "[\"get-projects/user_roles\",\"get-projects/overall_project_records\",\"put-projects/project_status\",\"get-projects\",\"get-projects/list\",\"get-projects/filter_overview\",\"put-projects\",\"get-projects/overview\"]",
+        "applyPolicies": "[\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Invoices Ticket Execution Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets-execution\"]",
+        "scopes": "[\"get-tickets-execution/ticket_assignee\",\"get-tickets-execution/outcomes\",\"get-tickets-execution/tickets-metrics\",\"put-tickets-execution/ticket_assignee\",\"post-tickets-execution/tickets\"]",
+        "applyPolicies": "[\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Invoice File Permissions",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"files\"]",
+        "scopes": "[\"get-files/download_invalid_data\",\"get-files/validation_results\",\"get-files/list\"]",
+        "applyPolicies": "[\"TeamLead Invoice Policy\"]"
+      }
+    },
+    {
+      "name": "TL Research Task Execution Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets-execution\"]",
+        "scopes": "[\"get-tickets-execution\",\"get-tickets-execution/ticket_assignee\",\"get-tickets-execution/external_details\",\"get-tickets-execution/research_custom_message\",\"get-tickets-execution/outcomes\",\"post-tickets-execution/research_details\",\"get-tickets-execution/call_notes\",\"get-tickets-execution/tickets-metrics\",\"put-tickets-execution/ticket_assignee\",\"post-tickets-execution/tickets\"]",
+        "applyPolicies": "[\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Chase Permission (SE, TL)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"chases\"]",
+        "scopes": "[\"put-chases/reverse_hierarchy\",\"put-chases/processed\",\"post-chases/download\",\"post-chases/processed\",\"get-chases\",\"get-chases/filters\",\"get-chases/unique_providers\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"TeamLead Caller Policy\",\"Senior Fax Executive Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Facility Permission (JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tasks\"]",
+        "scopes": "[\"get-tasks\"]",
+        "applyPolicies": "[\"Junior Caller Executive Policy\",\"Junior Fax Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Facility Permission (SE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tasks\"]",
+        "scopes": "[\"put-tasks\",\"post-tasks/task_details\",\"get-tasks\",\"get-tasks/download_record_list\",\"put-tasks/assign\",\"get-tasks/record_list\",\"get-tasks/assign\"]",
+        "applyPolicies": "[\"Senior Fax Executive Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Task Permission (JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets\"]",
+        "scopes": "[\"get-tickets/ticket_stage\",\"get-tickets/departments\",\"get-tickets/executives\",\"get-tickets/assign\"]",
+        "applyPolicies": "[\"Junior Caller Executive Policy\",\"Junior Fax Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Task Permission (TL, SE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets\"]",
+        "scopes": "[\"put-tickets/ticket_assign\",\"put-tickets\",\"delete-tickets\",\"get-tickets/ticket_stage\",\"get-tickets/departments\",\"get-tickets/executives\",\"post-tickets/bulk_tickets\",\"get-tickets/assign\",\"post-tickets\",\"get-tickets\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"TeamLead Caller Policy\",\"Senior Fax Executive Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax, Research Chase Permission (JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"chases\"]",
+        "scopes": "[\"put-chases/reverse_hierarchy\",\"put-chases/link_invoice\",\"put-chases/processed\",\"post-chases/processed\",\"get-chases\",\"get-chases/filters\",\"get-chases/unique_providers\"]",
+        "applyPolicies": "[\"Junior Caller Executive Policy\",\"Junior Research Executive Policy\",\"Junior Fax Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Project Permission (SE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"projects\"]",
+        "scopes": "[\"get-projects/overall_project_records\",\"put-projects/project_status\",\"get-projects\",\"get-projects/list\",\"get-projects/filter_overview\",\"get-projects/overview\"]",
+        "applyPolicies": "[\"Senior Fax Executive Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Senior Executive Invoice Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"invoices\"]",
+        "scopes": "[\"post-invoices/comment\",\"post-invoices/download\",\"get-invoices/approval-details\",\"post-invoices/approval-details\",\"put-invoices\",\"get-invoices/comments\",\"get-invoices/attribute-details\",\"put-invoices/approval-details\",\"post-invoices/invoice-details\",\"get-invoices\",\"get-invoices/chase_list\"]",
+        "applyPolicies": "[\"Senior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling Task Execution Permission (TL, SE, JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets-execution\"]",
+        "scopes": "[\"get-tickets-execution\",\"get-tickets-execution/ticket_assignee\",\"patch-tickets-execution/call_update\",\"get-tickets-execution/outcomes\",\"post-tickets-execution/call_details\",\"get-tickets-execution/call_notes\",\"get-tickets-execution/tickets-metrics\",\"put-tickets-execution/ticket_assignee\",\"post-tickets-execution/call_end\",\"post-tickets-execution/tickets\",\"post-tickets-execution/start_call\"]",
+        "applyPolicies": "[\"Junior Caller Executive Policy\",\"TeamLead Caller Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Fax Task Execution Permission (TL, SE, JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets-execution\"]",
+        "scopes": "[\"post-tickets-execution/send_fax\",\"get-tickets-execution\",\"get-tickets-execution/ticket_assignee\",\"get-tickets-execution/outcomes\",\"get-tickets-execution/call_notes\",\"get-tickets-execution/tickets-metrics\",\"put-tickets-execution/ticket_assignee\",\"post-tickets-execution/tickets\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"Senior Fax Executive Policy\",\"Junior Fax Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Research Task Execution Permission (SE, TL, JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets-execution\"]",
+        "scopes": "[\"get-tickets-execution\",\"get-tickets-execution/ticket_assignee\",\"get-tickets-execution/external_details\",\"get-tickets-execution/research_custom_message\",\"get-tickets-execution/outcomes\",\"post-tickets-execution/research_details\",\"get-tickets-execution/call_notes\",\"get-tickets-execution/tickets-metrics\",\"put-tickets-execution/ticket_assignee\",\"post-tickets-execution/tickets\"]",
+        "applyPolicies": "[\"Senior Research Executive Policy\",\"Junior Research Executive Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "L1 Permission",
+      "description": "L1 Permission",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"L1 Resource\"]",
+        "scopes": "[\"/auth\"]",
+        "applyPolicies": "[\"L1 Policy\"]"
+      }
+    },
+    {
+      "name": "Invoice Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"invoices\"]",
+        "scopes": "[\"delete-invoices/attachment\",\"put-invoices/assign\",\"get-invoices/approval-details\",\"post-invoices/add-attachments\",\"post-invoices/add-files\",\"get-invoices/assign\",\"get-invoices/attribute-details\",\"post-invoices/invoice-details\",\"put-invoices/approval-details\",\"get-invoices\",\"post-invoices/comment\",\"get-invoices/attachments\",\"post-invoices/download\",\"post-invoices/approval-details\",\"put-invoices\",\"get-invoices/comments\",\"get-invoices/chase_list\"]",
+        "applyPolicies": "[\"Admin Policy\",\"TeamLead Invoice Policy\"]"
+      }
+    },
+    {
+      "name": "Pipeline",
+      "description": "L0 Pipeline permission",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"pipeline\"]",
+        "scopes": "[\"get-pipeline/doc-type\",\"get-pipeline/config\",\"get-pipeline/case/files\",\"get-pipeline/project\",\"get-pipeline/list\",\"get-pipeline/processing-class\"]",
+        "applyPolicies": "[\"L0 Policy\"]"
+      }
+    },
+    {
+      "name": "Task Execution Permission",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tickets-execution\"]",
+        "scopes": "[\"get-tickets-execution/external_details\",\"get-tickets-execution/research_custom_message\",\"get-tickets-execution/outcomes\",\"post-tickets-execution/research_details\",\"get-tickets-execution/call_notes\",\"post-tickets-execution/tickets\",\"post-tickets-execution/start_call\",\"post-tickets-execution/send_fax\",\"get-tickets-execution\",\"get-tickets-execution/ticket_assignee\",\"patch-tickets-execution/call_update\",\"post-tickets-execution/call_details\",\"get-tickets-execution/tickets-metrics\",\"put-tickets-execution/ticket_assignee\",\"post-tickets-execution/call_end\"]",
+        "applyPolicies": "[\"Admin Policy\",\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Facility Permission (TL)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"tasks\"]",
+        "scopes": "[\"put-tasks\",\"post-tasks/task_details\",\"post-tasks/generate_tasks\",\"get-tasks\",\"get-tasks/download_record_list\",\"post-tasks\",\"get-tasks/list\",\"put-tasks/assign\",\"get-tasks/record_list\",\"get-tasks/assign\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"TeamLead Caller Policy\"]"
+      }
+    },
+    {
+      "name": "Reports Permission Client Role",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"reports\"]",
+        "scopes": "[\"post-reports/discrepancy_invoices\",\"get-reports/clients\",\"get-reports/invoice_attributes\",\"post-reports/appointment_type_status\",\"get-reports/workflow_status\",\"get-reports/invoice_comments\",\"get-reports/reason_metrics\",\"get-reports/projects\",\"get-reports/linked_chase\",\"get-reports/chart_status_summary\",\"get-reports/volume_metrics\",\"post-reports/invoice_comment\",\"get-reports/appointment_type\",\"post-reports/export_workflow_status_summary\",\"post-reports/export_detailed_billing\",\"post-reports/workflow_status_summary\",\"put-reports/discrepancy_invoice\",\"post-reports/workflow_status\",\"get-reports/export_excess_fee_summary\",\"get-reports/chart_volume_metrics\",\"get-reports/billing_metrics\",\"get-reports/invoice_attachments\",\"get-reports/download_client_action_report\",\"get-reports/detailed_billing_report\",\"get-reports/invoice\",\"get-reports/chart_status_detailed_summary\",\"post-reports/export_client_action_data\",\"get-reports/hydra_charts\",\"get-reports/excess_fee_metrics\",\"get-reports/client_action_data\"]",
+        "applyPolicies": "[\"Client Policy\"]"
+      }
+    },
+    {
+      "name": "Ping Permission",
+      "description": "Ping Permission to L0/team lead/L1",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"ping\"]",
+        "scopes": "[\"get-ping\"]",
+        "applyPolicies": "[\"L1 Policy\",\"L0 Policy\",\"TeamLead Research Policy\"]"
+      }
+    },
+    {
+      "name": "Chases Permission Client Role",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"chases\"]",
+        "scopes": "[\"put-chases/link_invoice\"]",
+        "applyPolicies": "[\"Client Policy\",\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\",\"Junior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "L0",
+      "description": "L0 End Point Permission",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "UNANIMOUS",
+      "config": {
+        "resources": "[\"l0\"]",
+        "scopes": "[\"get-l0/chart-verify\",\"put-l0/hold\",\"put-l0/hcc\",\"get-l0/hold-list\",\"get-l0/status\",\"put-l0/chart\",\"get-l0/dashboard\",\"get-l0/search/chart\",\"get-l0/chart\"]",
+        "applyPolicies": "[\"L0 Policy\"]"
+      }
+    },
+    {
+      "name": "Activity Logs Permission (Admin, TL, SE, Research JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"activity-logs\"]",
+        "scopes": "[\"get-activity-logs/tickets\",\"get-activity-logs\",\"get-activity-logs/tasks\"]",
+        "applyPolicies": "[\"TeamLead Fax Policy\",\"Admin Policy\",\"Senior Research Executive Policy\",\"TeamLead Caller Policy\",\"TeamLead Invoice Policy\",\"Senior Fax Executive Policy\",\"Junior Research Executive Policy\",\"Senior Invoice Executive Policy\",\"TeamLead Research Policy\",\"Senior Caller Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Phases Permission Client Role",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"phases\"]",
+        "scopes": "[\"get-phases/presigned-url\"]",
+        "applyPolicies": "[\"Client Policy\",\"TeamLead Invoice Policy\",\"Senior Invoice Executive Policy\",\"Junior Invoice Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Calling, Fax Activity Logs Permission (JE)",
+      "description": "",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"activity-logs\"]",
+        "scopes": "[\"get-activity-logs/tickets\",\"get-activity-logs\"]",
+        "applyPolicies": "[\"Junior Caller Executive Policy\",\"Junior Fax Executive Policy\"]"
+      }
+    },
+    {
+      "name": "Reports Permission",
+      "description": "Reports Permission",
+      "type": "scope",
+      "logic": "POSITIVE",
+      "decisionStrategy": "AFFIRMATIVE",
+      "config": {
+        "resources": "[\"reports\"]",
+        "scopes": "[\"post-reports/discrepancy_invoices\",\"get-reports/agents_chart\",\"get-reports/clients\",\"get-reports/invoice_attributes\",\"post-reports/appointment_type_status\",\"get-reports/call_performance_metrics\",\"get-reports/workflow_status\",\"get-reports/facility_insights\",\"get-reports/invoice_comments\",\"get-reports/reason_metrics\",\"get-reports/projects\",\"get-reports/linked_chase\",\"get-reports/chart_status_summary\",\"get-reports/volume_metrics\",\"post-reports/invoice_comment\",\"get-reports/appointment_type\",\"post-reports/export_workflow_status_summary\",\"post-reports/export_detailed_billing\",\"post-reports/workflow_status_summary\",\"put-reports/discrepancy_invoice\",\"post-reports/workflow_status\",\"get-reports/export_excess_fee_summary\",\"get-reports/chart_volume_metrics\",\"get-reports/billing_metrics\",\"get-reports/invoice_attachments\",\"get-reports/download_client_action_report\",\"get-reports/detailed_billing_report\",\"get-reports/invoice\",\"get-reports/tickets_chart\",\"get-reports/chart_status_detailed_summary\",\"post-reports/export_client_action_data\",\"get-reports/hydra_charts\",\"get-reports/agent_insights\",\"get-reports/excess_fee_metrics\",\"get-reports/client_action_data\"]",
+        "applyPolicies": "[\"Admin Policy\"]"
+      }
+    }
+  ],
+  "scopes": [
+    {
+      "name": "get-tasks/record_list",
+      "iconUri": "",
+      "displayName": "get-tasks/record_list"
+    },
+    {
+      "name": "post-clients/client",
+      "iconUri": "",
+      "displayName": "post-clients/client"
+    },
+    {
+      "name": "post-phases/phase",
+      "iconUri": "",
+      "displayName": "post-phases/phase"
+    },
+    {
+      "name": "post-projects/project",
+      "iconUri": "",
+      "displayName": "post-projects/project"
+    },
+    {
+      "name": "post-files/file",
+      "iconUri": "",
+      "displayName": "post-files/file"
+    },
+    {
+      "name": "put-tasks/assign",
+      "iconUri": "",
+      "displayName": "put-tasks/assign"
+    },
+    {
+      "name": "get-projects/list",
+      "iconUri": "",
+      "displayName": "get-projects/list"
+    },
+    {
+      "name": "get-tickets",
+      "iconUri": "",
+      "displayName": "get-tickets"
+    },
+    {
+      "name": "get-tasks",
+      "iconUri": "",
+      "displayName": "get-tasks"
+    },
+    {
+      "name": "get-files",
+      "iconUri": "",
+      "displayName": "get-files"
+    },
+    {
+      "name": "get-tasks/assign",
+      "iconUri": "",
+      "displayName": "get-tasks/assign"
+    },
+    {
+      "name": "put-tasks",
+      "iconUri": "",
+      "displayName": "put-tasks"
+    },
+    {
+      "name": "get-clients/list",
+      "iconUri": "",
+      "displayName": "get-clients/list"
+    },
+    {
+      "name": "post-tasks",
+      "iconUri": "",
+      "displayName": "post-tasks"
+    },
+    {
+      "name": "post-tasks/generate_tasks",
+      "iconUri": "",
+      "displayName": "post-tasks/generate_tasks"
+    },
+    {
+      "name": "put-files",
+      "iconUri": "",
+      "displayName": "put-files"
+    },
+    {
+      "name": "post-tasks/split_task",
+      "iconUri": "",
+      "displayName": "post-tasks/split_task"
+    },
+    {
+      "name": "delete-clients",
+      "iconUri": "",
+      "displayName": "delete-clients"
+    },
+    {
+      "name": "delete-phases",
+      "iconUri": "",
+      "displayName": "delete-phases"
+    },
+    {
+      "name": "post-reports/workflow_status_summary",
+      "iconUri": "",
+      "displayName": "post-reports/workflow_status_summary"
+    },
+    {
+      "name": "delete-projects",
+      "iconUri": "",
+      "displayName": "delete-projects"
+    },
+    {
+      "name": "get-reports/export_excess_fee_summary",
+      "iconUri": "",
+      "displayName": "get-reports/export_excess_fee_summary"
+    },
+    {
+      "name": "get-clients",
+      "iconUri": "",
+      "displayName": "get-clients"
+    },
+    {
+      "name": "get-files/validation_results",
+      "iconUri": "",
+      "displayName": "get-files/validation_results"
+    },
+    {
+      "name": "/auth",
+      "iconUri": "",
+      "displayName": "/auth"
+    },
+    {
+      "name": "put-phases",
+      "iconUri": "",
+      "displayName": "put-phases"
+    },
+    {
+      "name": "put-projects",
+      "iconUri": "",
+      "displayName": "put-projects"
+    },
+    {
+      "name": "get-projects",
+      "iconUri": "",
+      "displayName": "get-projects"
+    },
+    {
+      "name": "get-phases",
+      "iconUri": "",
+      "displayName": "get-phases"
+    },
+    {
+      "name": "put-clients",
+      "iconUri": "",
+      "displayName": "put-clients"
+    },
+    {
+      "name": "get-chases",
+      "iconUri": "",
+      "displayName": "get-chases"
+    },
+    {
+      "name": "get-phases/list_object",
+      "iconUri": "",
+      "displayName": "get-phases/list_object"
+    },
+    {
+      "name": "post-chases",
+      "iconUri": "",
+      "displayName": "post-chases"
+    },
+    {
+      "name": "get-projects/user_roles",
+      "iconUri": "",
+      "displayName": "get-projects/user_roles"
+    },
+    {
+      "name": "post-clients/copy-attachment",
+      "iconUri": "",
+      "displayName": "post-clients/copy-attachment"
+    },
+    {
+      "name": "get-phases/user_roles",
+      "iconUri": "",
+      "displayName": "get-phases/user_roles"
+    },
+    {
+      "name": "get-files/download_invalid_data",
+      "iconUri": "",
+      "displayName": "get-files/download_invalid_data"
+    },
+    {
+      "name": "get-notification",
+      "iconUri": "",
+      "displayName": "get-notification"
+    },
+    {
+      "name": "post-notification",
+      "iconUri": "",
+      "displayName": "post-notification"
+    },
+    {
+      "name": "patch-notification/seen",
+      "iconUri": "",
+      "displayName": "patch-notification/seen"
+    },
+    {
+      "name": "get-notification/stream",
+      "iconUri": "",
+      "displayName": "get-notification/stream"
+    },
+    {
+      "name": "get-phases/download_chase",
+      "iconUri": "",
+      "displayName": "get-phases/download_chase"
+    },
+    {
+      "name": "get-chases/download",
+      "iconUri": "",
+      "displayName": "get-chases/download"
+    },
+    {
+      "name": "post-chases/processed",
+      "iconUri": "",
+      "displayName": "post-chases/processed"
+    },
+    {
+      "name": "put-clients/remove_attachment",
+      "iconUri": "",
+      "displayName": "put-clients/remove_attachment"
+    },
+    {
+      "name": "post-files/reupload",
+      "iconUri": "",
+      "displayName": "post-files/reupload"
+    },
+    {
+      "name": "get-chases/filters",
+      "iconUri": "",
+      "displayName": "get-chases/filters"
+    },
+    {
+      "name": "get-waves",
+      "iconUri": ""
+    },
+    {
+      "name": "post-chases/download",
+      "iconUri": "",
+      "displayName": "post-chases/download"
+    },
+    {
+      "name": "get-projects/overview",
+      "iconUri": "",
+      "displayName": "get-projects/overview"
+    },
+    {
+      "name": "get-projects/filter_overview",
+      "iconUri": "",
+      "displayName": "get-projects/filter_overview"
+    },
+    {
+      "name": "get-projects/overall_project_records",
+      "iconUri": "",
+      "displayName": "get-projects/overall_project_records"
+    },
+    {
+      "name": "get-tasks/list",
+      "iconUri": "",
+      "displayName": "get-tasks/list"
+    },
+    {
+      "name": "post-tasks/task_details",
+      "iconUri": "",
+      "displayName": "post-tasks/task_details"
+    },
+    {
+      "name": "put-chases/reverse_hierarchy",
+      "iconUri": "",
+      "displayName": "put-chases/reverse_hierarchy"
+    },
+    {
+      "name": "get-reports/excess_fee_metrics",
+      "iconUri": "",
+      "displayName": "get-reports/excess_fee_metrics"
+    },
+    {
+      "name": "put-tickets/ticket_assign",
+      "iconUri": "",
+      "displayName": "put-tickets/ticket_assign"
+    },
+    {
+      "name": "get-reports/reason_metrics",
+      "iconUri": "",
+      "displayName": "get-reports/reason_metrics"
+    },
+    {
+      "name": "get-reports/detailed_billing_report",
+      "iconUri": "",
+      "displayName": "get-reports/detailed_billing_report"
+    },
+    {
+      "name": "get-reports/billing_metrics",
+      "iconUri": "",
+      "displayName": "get-reports/billing_metrics"
+    },
+    {
+      "name": "delete-tickets",
+      "iconUri": "",
+      "displayName": "delete-tickets"
+    },
+    {
+      "name": "post-invoices/download",
+      "iconUri": "",
+      "displayName": "post-invoices/download"
+    },
+    {
+      "name": "put-invoices/approval-details",
+      "iconUri": "",
+      "displayName": "put-invoices/approval-details"
+    },
+    {
+      "name": "get-invoices/chase_list",
+      "iconUri": "",
+      "displayName": "get-invoices/chase_list"
+    },
+    {
+      "name": "post-invoices/approval-details",
+      "iconUri": "",
+      "displayName": "post-invoices/approval-details"
+    },
+    {
+      "name": "get-waves/project",
+      "iconUri": "",
+      "displayName": "get-waves/project"
+    },
+    {
+      "name": "get-tickets-execution/ticket_assignee",
+      "iconUri": "",
+      "displayName": "get-tickets-execution/ticket_assignee"
+    },
+    {
+      "name": "put-l0/chart",
+      "iconUri": "",
+      "displayName": "put-l0/chart"
+    },
+    {
+      "name": "get-invoices/approval-details",
+      "iconUri": "",
+      "displayName": "get-invoices/approval-details"
+    },
+    {
+      "name": "get-chases/unique_providers",
+      "iconUri": "",
+      "displayName": "get-chases/unique_providers"
+    },
+    {
+      "name": "put-chases/processed",
+      "iconUri": "",
+      "displayName": "put-chases/processed"
+    },
+    {
+      "name": "get-reports/hydra_charts",
+      "iconUri": "",
+      "displayName": "get-reports/hydra_charts"
+    },
+    {
+      "name": "get-reports/projects",
+      "iconUri": "",
+      "displayName": "get-reports/projects"
+    },
+    {
+      "name": "get-tickets/assign",
+      "iconUri": "",
+      "displayName": "get-tickets/assign"
+    },
+    {
+      "name": "get-tickets/departments",
+      "iconUri": "",
+      "displayName": "get-tickets/departments"
+    },
+    {
+      "name": "get-tickets-execution",
+      "iconUri": "",
+      "displayName": "get-tickets-execution"
+    },
+    {
+      "name": "get-tickets-execution/tickets-metrics",
+      "iconUri": "",
+      "displayName": "get-tickets-execution/tickets-metrics"
+    },
+    {
+      "name": "get-tickets/executives",
+      "iconUri": "",
+      "displayName": "get-tickets/executives"
+    },
+    {
+      "name": "get-tickets/ticket_stage",
+      "iconUri": "",
+      "displayName": "get-tickets/ticket_stage"
+    },
+    {
+      "name": "patch-tickets-execution/call_update",
+      "iconUri": "",
+      "displayName": "patch-tickets-execution/call_update"
+    },
+    {
+      "name": "post-tickets",
+      "iconUri": "",
+      "displayName": "post-tickets"
+    },
+    {
+      "name": "post-tickets/bulk_tickets",
+      "iconUri": "",
+      "displayName": "post-tickets/bulk_tickets"
+    },
+    {
+      "name": "post-tickets-execution/call_details",
+      "iconUri": "",
+      "displayName": "post-tickets-execution/call_details"
+    },
+    {
+      "name": "post-tickets-execution/send_fax",
+      "iconUri": "",
+      "displayName": "post-tickets-execution/send_fax"
+    },
+    {
+      "name": "post-tickets-execution/tickets",
+      "iconUri": "",
+      "displayName": "post-tickets-execution/tickets"
+    },
+    {
+      "name": "post-tickets/split",
+      "iconUri": "",
+      "displayName": "post-tickets/split"
+    },
+    {
+      "name": "put-tickets",
+      "iconUri": "",
+      "displayName": "put-tickets"
+    },
+    {
+      "name": "put-tickets-execution/ticket_assignee",
+      "iconUri": "",
+      "displayName": "put-tickets-execution/ticket_assignee"
+    },
+    {
+      "name": "get-tasks/download_record_list",
+      "iconUri": "",
+      "displayName": "get-tasks/download_record_list"
+    },
+    {
+      "name": "get-activity-logs",
+      "iconUri": "",
+      "displayName": "get-activity-logs"
+    },
+    {
+      "name": "post-tasks/bulk_fax",
+      "iconUri": "",
+      "displayName": "post-tasks/bulk_fax"
+    },
+    {
+      "name": "post-reports/workflow_status",
+      "iconUri": "",
+      "displayName": "post-reports/workflow_status"
+    },
+    {
+      "name": "post-reports/appointment_type_status",
+      "iconUri": "",
+      "displayName": "post-reports/appointment_type_status"
+    },
+    {
+      "name": "delete-invoices/attachment",
+      "iconUri": "",
+      "displayName": "delete-invoices/attachment"
+    },
+    {
+      "name": "get-invoices/assign",
+      "iconUri": "",
+      "displayName": "get-invoices/assign"
+    },
+    {
+      "name": "get-agent/list",
+      "iconUri": "",
+      "displayName": "get-agent/list"
+    },
+    {
+      "name": "get-invoices/attachments",
+      "iconUri": "",
+      "displayName": "get-invoices/attachments"
+    },
+    {
+      "name": "get-invoices/attribute-details",
+      "iconUri": "",
+      "displayName": "get-invoices/attribute-details"
+    },
+    {
+      "name": "get-invoices/comments",
+      "iconUri": "",
+      "displayName": "get-invoices/comments"
+    },
+    {
+      "name": "post-invoices/comment",
+      "iconUri": "",
+      "displayName": "post-invoices/comment"
+    },
+    {
+      "name": "put-invoices/assign",
+      "iconUri": "",
+      "displayName": "put-invoices/assign"
+    },
+    {
+      "name": "post-invoices/invoice-details",
+      "iconUri": "",
+      "displayName": "post-invoices/invoice-details"
+    },
+    {
+      "name": "get-reports/appointment_type",
+      "iconUri": "",
+      "displayName": "get-reports/appointment_type"
+    },
+    {
+      "name": "get-reports/call_performance_metrics",
+      "iconUri": "",
+      "displayName": "get-reports/call_performance_metrics"
+    },
+    {
+      "name": "get-reports/chart_volume_metrics",
+      "iconUri": "",
+      "displayName": "get-reports/chart_volume_metrics"
+    },
+    {
+      "name": "get-reports/workflow_status",
+      "iconUri": "",
+      "displayName": "get-reports/workflow_status"
+    },
+    {
+      "name": "get-reports/client_action_data",
+      "iconUri": "",
+      "displayName": "get-reports/client_action_data"
+    },
+    {
+      "name": "get-l0/dashboard",
+      "iconUri": "",
+      "displayName": "get-l0/dashboard"
+    },
+    {
+      "name": "post-reports/export_workflow_status_summary",
+      "iconUri": "",
+      "displayName": "post-reports/export_workflow_status_summary"
+    },
+    {
+      "name": "get-activity-logs/tickets",
+      "iconUri": "",
+      "displayName": "get-activity-logs/tickets"
+    },
+    {
+      "name": "post-tickets-execution/call_end",
+      "iconUri": "",
+      "displayName": "post-tickets-execution/call_end"
+    },
+    {
+      "name": "get-activity-logs/tasks",
+      "iconUri": "",
+      "displayName": "get-activity-logs/tasks"
+    },
+    {
+      "name": "get-vendors/list",
+      "iconUri": "",
+      "displayName": "get-vendors/list"
+    },
+    {
+      "name": "post-vendors",
+      "iconUri": "",
+      "displayName": "post-vendors"
+    },
+    {
+      "name": "get-l0/hold-list",
+      "iconUri": "",
+      "displayName": "get-l0/hold-list"
+    },
+    {
+      "name": "get-l0/chart-verify",
+      "iconUri": "",
+      "displayName": "get-l0/chart-verify"
+    },
+    {
+      "name": "get-pipeline/case/files",
+      "iconUri": "",
+      "displayName": "get-pipeline/case/files"
+    },
+    {
+      "name": "get-invoices",
+      "iconUri": "",
+      "displayName": "get-invoices"
+    },
+    {
+      "name": "post-invoices/add-files",
+      "iconUri": "",
+      "displayName": "post-invoices/add-files"
+    },
+    {
+      "name": "put-invoices",
+      "iconUri": "",
+      "displayName": "put-invoices"
+    },
+    {
+      "name": "get-reports/facility_insights",
+      "iconUri": "",
+      "displayName": "get-reports/facility_insights"
+    },
+    {
+      "name": "put-vendors",
+      "iconUri": "",
+      "displayName": "put-vendors"
+    },
+    {
+      "name": "get-reports/agent_insights",
+      "iconUri": "",
+      "displayName": "get-reports/agent_insights"
+    },
+    {
+      "name": "get-phases/presigned-url",
+      "iconUri": "",
+      "displayName": "get-phases/presigned-url"
+    },
+    {
+      "name": "post-reports/export_detailed_billing",
+      "iconUri": "",
+      "displayName": "post-reports/export_detailed_billing"
+    },
+    {
+      "name": "get-reports/tickets_chart",
+      "iconUri": "",
+      "displayName": "get-reports/tickets_chart"
+    },
+    {
+      "name": "post-tickets-execution/start_call",
+      "iconUri": "",
+      "displayName": "post-tickets-execution/start_call"
+    },
+    {
+      "name": "post-reports/export_client_action_data",
+      "iconUri": "",
+      "displayName": "post-reports/export_client_action_data"
+    },
+    {
+      "name": "get-reports/chart_status_detailed_summary",
+      "iconUri": "",
+      "displayName": "get-reports/chart_status_detailed_summary"
+    },
+    {
+      "name": "put-chases/link_invoice",
+      "iconUri": "",
+      "displayName": "put-chases/link_invoice"
+    },
+    {
+      "name": "post-invoices/add-attachments",
+      "iconUri": "",
+      "displayName": "post-invoices/add-attachments"
+    },
+    {
+      "name": "get-tasks/facility_list",
+      "iconUri": "",
+      "displayName": "get-tasks/facility_list"
+    },
+    {
+      "name": "put-projects/project_status",
+      "iconUri": "",
+      "displayName": "put-projects/project_status"
+    },
+    {
+      "name": "get-reports/download_client_action_report",
+      "iconUri": "",
+      "displayName": "get-reports/download_client_action_report"
+    },
+    {
+      "name": "get-reports/chart_status_summary",
+      "iconUri": "",
+      "displayName": "get-reports/chart_status_summary"
+    },
+    {
+      "name": "get-reports/volume_metrics",
+      "iconUri": "",
+      "displayName": "get-reports/volume_metrics"
+    },
+    {
+      "name": "get-reports/agents_chart",
+      "iconUri": "",
+      "displayName": "get-reports/agents_chart"
+    },
+    {
+      "name": "get-tickets-execution/call_notes",
+      "iconUri": "",
+      "displayName": "get-tickets-execution/call_notes"
+    },
+    {
+      "name": "get-tickets-execution/external_details",
+      "iconUri": "",
+      "displayName": "get-tickets-execution/external_details"
+    },
+    {
+      "name": "get-tickets-execution/outcomes",
+      "iconUri": "",
+      "displayName": "get-tickets-execution/outcomes"
+    },
+    {
+      "name": "get-tickets-execution/research_custom_message",
+      "iconUri": "",
+      "displayName": "get-tickets-execution/research_custom_message"
+    },
+    {
+      "name": "post-tickets-execution/research_details",
+      "iconUri": "",
+      "displayName": "post-tickets-execution/research_details"
+    },
+    {
+      "name": "delete-tasks",
+      "iconUri": "",
+      "displayName": "delete-tasks"
+    },
+    {
+      "name": "put-reports/discrepancy_invoice",
+      "iconUri": "",
+      "displayName": "put-reports/discrepancy_invoice"
+    },
+    {
+      "name": "get-reports/invoice_comments",
+      "iconUri": "",
+      "displayName": "get-reports/invoice_comments"
+    },
+    {
+      "name": "post-reports/invoice_comment",
+      "iconUri": "",
+      "displayName": "post-reports/invoice_comment"
+    },
+    {
+      "name": "get-reports/invoice_attachments",
+      "iconUri": "",
+      "displayName": "get-reports/invoice_attachments"
+    },
+    {
+      "name": "get-reports/invoice",
+      "iconUri": "",
+      "displayName": "get-reports/invoice"
+    },
+    {
+      "name": "post-reports/discrepancy_invoices",
+      "iconUri": "",
+      "displayName": "post-reports/discrepancy_invoices"
+    },
+    {
+      "name": "get-reports/linked_chase",
+      "iconUri": "",
+      "displayName": "get-reports/linked_chase"
+    },
+    {
+      "name": "get-reports/clients",
+      "iconUri": "",
+      "displayName": "get-reports/clients"
+    },
+    {
+      "name": "get-reports/invoice_attributes",
+      "iconUri": "",
+      "displayName": "get-reports/invoice_attributes"
+    },
+    {
+      "name": "put-l0/hcc",
+      "iconUri": "",
+      "displayName": "put-l0/hcc"
+    },
+    {
+      "name": "put-l0/hold",
+      "iconUri": "",
+      "displayName": "put-l0/hold"
+    },
+    {
+      "name": "get-ping",
+      "iconUri": "",
+      "displayName": "ping"
+    },
+    {
+      "name": "get-vendors/vendor_summary",
+      "iconUri": "",
+      "displayName": "get-vendors/vendor_summary"
+    },
+    {
+      "name": "get-vendors/download_vendor_summary",
+      "iconUri": "",
+      "displayName": "get-vendors/download_vendor_summary"
+    },
+    {
+      "name": "get-pipeline/project",
+      "iconUri": "",
+      "displayName": "get-pipeline/project"
+    },
+    {
+      "name": "post-pipeline/case",
+      "iconUri": "",
+      "displayName": "post-pipeline/case"
+    },
+    {
+      "name": "get-pipeline/presigned-url",
+      "iconUri": "",
+      "displayName": "get-pipeline/presigned-url"
+    },
+    {
+      "name": "post-pipeline/upload-complete",
+      "iconUri": "",
+      "displayName": "post-pipeline/upload-complete"
+    },
+    {
+      "name": "post-pipeline/process",
+      "iconUri": "",
+      "displayName": "post-pipeline/process"
+    },
+    {
+      "name": "get-pipeline/doc-type",
+      "iconUri": "",
+      "displayName": "get-pipeline/doc-type"
+    },
+    {
+      "name": "get-pipeline/config",
+      "iconUri": "",
+      "displayName": "get-pipeline/config"
+    },
+    {
+      "name": "get-pipeline/list",
+      "iconUri": "",
+      "displayName": "get-pipeline/list"
+    },
+    {
+      "name": "get-pipeline/processing-class",
+      "iconUri": "",
+      "displayName": "get-pipeline/processing-class"
+    },
+    {
+      "name": "get-files/list",
+      "iconUri": "",
+      "displayName": "get-files/list"
+    },
+    {
+      "name": "get-l0/status",
+      "iconUri": "",
+      "displayName": "get-l0/status"
+    },
+    {
+      "name": "get-l0/search/chart",
+      "iconUri": "",
+      "displayName": "get-l0/search/chart"
+    },
+    {
+      "name": "get-l0/chart",
+      "iconUri": "",
+      "displayName": "get-l0/chart"
+    }
+  ],
+  "decisionStrategy": "AFFIRMATIVE"
+}

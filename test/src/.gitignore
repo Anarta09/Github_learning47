@@ -1,0 +1,14 @@
+# Alembic migrations
+alembic/
+
+# Virtual environments
+.kvenv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Logs
+logs/
