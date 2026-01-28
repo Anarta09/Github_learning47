@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 first line
 second line
+=======
+third line
+>>>>>>> 4ef64ac (pullp)
